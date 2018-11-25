@@ -1,0 +1,30 @@
+Andres Oliva 12149
+
+
+10 Apple: A2
+
+50 Zork: Hell
+It is pitch black.  You are likely to be eaten by a grue.
+
+Oh, no!  You walked into the slavering fangs of a lurking grue.
+As you take your last breath, you feel relieved of your burdens. The feeling passes as you find yourself before the gate
+s of Hell, where the
+spirits jeer at you and deny you entry.  Your senses are disturbed.  The objects in the dungeon appear indistinct, bleac
+hed of color, even
+unreal.
+The room looks strange and unearthly and objects appear indistinct.
+Entrance to Hades
+You are outside a large gateway, on which is inscribed
+        "Abandon every hope, all ye who enter here."
+The gate is open; through it you can see a desolation, with a pile of mangled corpses in one corner.  Thousands of voice
+s, lamenting some
+hideous fate, can be heard.
+The way through the gate is barred by evil spirits, who jeer at your attempts to pass.
+
+20 ¿Cuál es el output de éste programa de Brainf*ck?: hello world
+
+10 usenet: Xmgr - graphics for exploratory
+
+10 Starwars: se utiliza @ para el formar el pelo de la leia 
+
+10 morse: -.-- .  ... .... .- .-.. .-..  -... .  .- ...  --. --- -.. ...
