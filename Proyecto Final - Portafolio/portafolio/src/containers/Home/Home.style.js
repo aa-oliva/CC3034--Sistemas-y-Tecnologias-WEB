@@ -44,7 +44,7 @@ export const RevealP = styled.p`
     position: relative;
     &:after {
         content: ' ';
-        position: absolute;
+        position: relative;
         top: 0;
         left: 0;
         width: 100%;
