@@ -1,5 +1,5 @@
 # minimal-react-boilerplate
-Este es mi boilerplate
+Boilerplate para proyecto 1 de cc3034
 
 Que es un boilerplate?
 
@@ -37,6 +37,7 @@ por eso es buena idea empezar desde 0 con un boilerplate sencillo que uno config
    ## npm start 
 
 ## Estructura del folder
+<img src="estructura.png" alt="Estructura"/>
 - dist
   -- index.html
 - node_modules
@@ -47,19 +48,4 @@ por eso es buena idea empezar desde 0 con un boilerplate sencillo que uno config
 
 La estructura siempre puede variar dependiendo de las necesidades o gusto del programador, en lo personal me gusta mantener separadas los componentes de diseño a los de logica, por lo cual una estructura mas formal seria:
 
-- src
-  -- components
-     --- main (El componente que es responsable de la conmutación de la vista en función de la ruta.)
-         ---- main.jsx
-      --- another.component
-         ---- component.jsx
-         ---- _component.scss
-      --- _components.scss (Aquí se hace referencia a todos los .scss parciales definidos en diferentes componentes)
-   -- views
-       --- home.jsx (o puede ser un directorio de una vista)
-       --- otra.view
-           --- otra.view.jsx
-           --- _otra.view.scss
-   -- index.scss (se refiere a _components.scss, _views.scss y cualquier otro parcial de .scss)
-   -- index.jsx (el punto de entrada en el que la aplicación representa el componente principal y, finalmente, representa las vistas
-       basado en ruta seleccionada)
+<img src="/estructura2.png" alt="Estructura"/>
