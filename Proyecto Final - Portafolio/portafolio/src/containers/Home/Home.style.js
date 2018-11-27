@@ -35,7 +35,6 @@ export const AndresImage = styled.div`
     text-align: center;
     color: black;
 
-
     h1{
         margin-bottom:0;
     }
