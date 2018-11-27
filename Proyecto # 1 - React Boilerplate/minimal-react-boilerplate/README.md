@@ -37,29 +37,8 @@ por eso es buena idea empezar desde 0 con un boilerplate sencillo que uno config
    ## npm start 
 
 ## Estructura del folder
-dist
-  index.html
-node_modules
-src
-  index.js
-package.json
-webpack.config.js
+<img src="/docs/estructura.png" alt="estructura"/>
 
 La estructura siempre puede variar dependiendo de las necesidades o gusto del programador, en lo personal me gusta mantener separadas los componentes de diseño a los de logica, por lo cual una estructura mas formal seria:
-src
-  components
-    main (El componente que es responsable de la conmutación de la vista en función de la ruta.)
-      main.jsx
-      another.component
-        component.jsx
-          _component.scss
-          _components.scss (Aquí se hace referencia a todos los .scss parciales definidos en diferentes componentes)
-        views
-          home.jsx (o puede ser un directorio de una vista)
-            another.view
-              another.view.jsx
-              _another.view.scss
-                _views.scss (all the .scss partials defined in different views are referenced here)
-   index.scss (refers _components.scss, _views.scss and any other .scss partials)
-   index.jsx (the entry point where the app renders the main component and which eventually renders the views
-       based on selected route)
+
+<img src="/docs/estructura2.png" alt="estructura"/>
