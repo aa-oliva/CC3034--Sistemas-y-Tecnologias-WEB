@@ -50,16 +50,16 @@ La estructura siempre puede variar dependiendo de las necesidades o gusto del pr
 - src
   -- components
      --- main (El componente que es responsable de la conmutación de la vista en función de la ruta.)
-         |-- main.jsx
-      -- another.component
-         |-- component.jsx
-         |-- _component.scss
-      |-- _components.scss (Aquí se hace referencia a todos los .scss parciales definidos en diferentes componentes)
-   |-- views
-       -- home.jsx (or can be a directory of a view)
-       -- another.view
-           |-- otra.view.jsx
-           |-- _otra.view.scss
+         ---- main.jsx
+      --- another.component
+         ---- component.jsx
+         ---- _component.scss
+      --- _components.scss (Aquí se hace referencia a todos los .scss parciales definidos en diferentes componentes)
+   -- views
+       --- home.jsx (o puede ser un directorio de una vista)
+       --- otra.view
+           --- otra.view.jsx
+           --- _otra.view.scss
    -- index.scss (se refiere a _components.scss, _views.scss y cualquier otro parcial de .scss)
    -- index.jsx (el punto de entrada en el que la aplicación representa el componente principal y, finalmente, representa las vistas
        basado en ruta seleccionada)
