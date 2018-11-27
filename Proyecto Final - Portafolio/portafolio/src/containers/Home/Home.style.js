@@ -1,8 +1,24 @@
 
-import styled, { css } from 'styled-components'
+import styled, { css } from 'styled-components';
 
 export const Image = styled.img`
 width: 30%;
+`;
+ //no me funciona el transform... 
+export const ImageButton = styled.div`
+    cursor: pointer;
+    overflow: hidden;
+    display: inline-block;
+
+    & > img {
+        transition: transform .3s;
+    }
+    
+    &:hover {
+        & > img {
+            transform: scale (1.2);
+        }
+    }
 `;
 
 export const AndresImage = styled.div`
